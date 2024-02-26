@@ -1,0 +1,6 @@
+{
+    "dockerComposeFile": "../../todo-list/docker-compose.yaml",
+    "service": "db",
+    "workspaceFolder": "/db-src",
+    "shutdownAction": "stopCompose"
+}

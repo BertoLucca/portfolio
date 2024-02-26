@@ -3,11 +3,11 @@ version: "2"
 services:
   sqlserver:
     build:
-      context: .
-      dockerfile: ./Dockerfile.sql
+      context: ./apps/db
+      dockerfile: ./Dockerfile
     volumes:
       - type: bind
-        source: ./apps/sql
+        source: ./apps/db
         target: /db-src
     ports:
       - 1433:1433
@@ -19,8 +19,8 @@ services:
 
   api:
     build:
-      context: .
-      dockerfile: ./Dockerfile.cs
+      context: ./apps/api
+      dockerfile: ./Dockerfile
     volumes:
       - type: bind
         source: ./apps/api
