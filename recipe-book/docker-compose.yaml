@@ -1,0 +1,12 @@
+---
+version: "2"
+services:
+  front:
+    build:
+      context: ./apps/front
+      dockerfile: ./Dockerfile
+    volumes:
+      - type: bind
+        source: ./apps/front
+        target: /front-src
+    command: sleep infinity
