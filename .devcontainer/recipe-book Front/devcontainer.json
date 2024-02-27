@@ -1,0 +1,6 @@
+{
+    "dockerComposeFile": "../../recipe-book/docker-compose.yaml",
+    "service": "front",
+    "workspaceFolder": "/front-src",
+    "shutdownAction": "stopCompose"
+}

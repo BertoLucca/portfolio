@@ -1,0 +1,9 @@
+**/.vscode
+**/build
+**/dist
+**/out
+
+**/.angular
+**/.env
+**/.pnpm-store
+**/node_modules
