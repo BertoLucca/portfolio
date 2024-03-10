@@ -6,4 +6,4 @@ COPY . .
 
 EXPOSE 1433
 
-CMD /opt/mssql/bin/sqlservr
+CMD /bin/bash ./entrypoint.sh

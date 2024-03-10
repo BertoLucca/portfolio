@@ -1,0 +1,1 @@
+/db-src/schemas/versions/v1/apply.sh & /opt/mssql/bin/sqlservr
